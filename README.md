@@ -66,7 +66,7 @@ Une course rapporte :
 
 Le projet est organisé en trois phases.
 
-### Phase 1 — Formalisation mathématique
+### Phase 1 - Formalisation mathématique
 
 Construire une formulation en **programmation linéaire en nombres entiers — PLNE** :
 
@@ -78,7 +78,7 @@ Construire une formulation en **programmation linéaire en nombres entiers — P
 - Définir le calcul du score.
 - Formuler l’objectif de maximisation.
 
-### Phase 2 — Conception des méthodes approchées
+### Phase 2 - Conception des méthodes approchées
 
 - Concevoir plusieurs heuristiques constructives.
 - Comparer leurs règles de sélection.
@@ -87,7 +87,7 @@ Construire une formulation en **programmation linéaire en nombres entiers — P
 - Définir les voisinages et les contrôles de faisabilité.
 - Identifier les paramètres à tester.
 
-### Phase 3 — Implémentation et tests
+### Phase 3 - Implémentation et tests
 
 - Implémenter les méthodes retenues.
 - Lire les instances.
@@ -148,7 +148,7 @@ par un solveur PLNE ni de preuve d’optimalité.
 
 ## 5. ⚙️ Heuristiques proposées en phase 2
 
-### Heuristique 1 — Plus proche course faisable
+### Heuristique 1 - Plus proche course faisable
 
 Choisir une course réalisable dont le départ est le plus proche
 du véhicule.
@@ -158,7 +158,7 @@ du véhicule.
 **Limite :** la proximité ne reflète pas nécessairement
 le gain de la course.
 
-### Heuristique 2 — Meilleur profit immédiat
+### Heuristique 2 - Meilleur profit immédiat
 
 Choisir une course selon le rapport :
 
@@ -170,7 +170,7 @@ Le gain prend en compte la distance de la course et le bonus éventuel.
 
 **Limite :** ne pénalise pas explicitement l’attente.
 
-### Heuristique 3 — Glouton pondéré
+### Heuristique 3 - Glouton pondéré
 
 Utiliser le critère :
 
