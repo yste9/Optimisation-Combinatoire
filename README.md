@@ -1,6 +1,3 @@
-# combinatorial-optimization-choco
-Projets d’optimisation combinatoire avec Choco
-
 # Optimisation des courses d’une flotte de véhicules autonomes
 
 **Affectation et ordonnancement de courses sous contraintes temporelles.**
